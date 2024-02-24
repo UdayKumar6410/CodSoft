@@ -128,7 +128,7 @@
     <section class="about-me">
         <h2>About Me</h2>
         <img src="profile.jfif" alt="Uday Kumar Bathula">
-        <p>I am a student at Gitam University with a passion for various fields including Engineering, Graphic Design, Photography, Programming, and Web Development. I am proactive, adaptable, and dedicated to continuous learning.</p>
+        <p>I am a Student at Gitam University with a passion for Various Fields including Graphic Design, Programming, and Web Development. I am proactive, adaptable, and dedicated to continuous learning.</p>
     </section>
 
     <section class="skills">
@@ -165,7 +165,7 @@
     </section>
 
     <footer class="footer">
-        <p>&copy; Uday Kumar Bathula | Intern at codsoft</p>
+        <p>&copy; Uday Kumar Bathula | Intern at CodSoft</p>
     </footer>
 </body>
 </html>
