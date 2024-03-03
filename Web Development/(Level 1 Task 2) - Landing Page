@@ -1,0 +1,99 @@
+
+<html>
+<head>
+    <title>The Amazon Store</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F3F3F3;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: none;
+            background-color: #232f3e;
+            color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: none;
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #131A22;
+            color: #B0B0B0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ff9900;
+        }
+
+        img {
+            vertical-align: middle;
+            max-width: 100%;
+            height: auto;
+        }
+
+        td img {
+            width: 20px;
+            height: 20px;
+        }
+
+        td[colspan="4"] {
+            font-size: 24px;
+            font-weight: bold;
+            color: #131A22;
+        }
+
+        header {
+            background-color: #232f3e;
+            padding: 15px 0;
+            text-align: center;
+            color: #ffffff;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #232f3e;
+            padding: 10px 0;
+            text-align: center;
+            color: #ffffff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" width="150" height="40"/>
+        The Amazon Store
+    </header>
+    <table>
+        <tr>
+            <td align="center"><a href="login.html" target="des_page">LOGIN</a></td>
+            <td align="center"><a href="registration.html" target="des_page">REGISTRATION</a></td>
+            <td align="center"><a href="catalogue.html" target="des_page">CATALOGUE</a></td>
+            <td align="center"><a href="cart.html" target="des_page">CART</a></td>
+        </tr>
+    </table>
+    <img src="bgimg.jpg" alt="Background" style="width: 80%; object-fit: cover;">
+    <footer>
+        © 2024 The Amazon Store. All rights reserved.
+    </footer>
+</body>
+</html>
